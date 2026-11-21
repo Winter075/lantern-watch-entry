@@ -1,0 +1,6 @@
+[
+  { "name": "1-cover.png", "query": "?shot=cover&seed=20261121" },
+  { "name": "2-hint.png", "query": "?shot=hint&seed=20261121" },
+  { "name": "3-magnifier.png", "query": "?shot=magnifier&seed=20261121" },
+  { "name": "4-clear.png", "query": "?shot=end&seed=20261121" }
+]

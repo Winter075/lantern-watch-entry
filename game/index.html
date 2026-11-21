@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lantern Watch — Spot the Difference</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #070a16; overflow: hidden; }
+  body { display: grid; place-items: center; font-family: "Trebuchet MS", "Segoe UI", sans-serif; }
+  #stage { position: relative; width: min(100vw, 177.78vh); aspect-ratio: 16 / 9; max-height: 100vh; }
+  canvas { width: 100%; height: 100%; display: block; cursor: crosshair; border-radius: 10px; box-shadow: 0 20px 80px #000a; }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="game" width="1280" height="720" aria-label="Lantern Watch spot the difference game"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
